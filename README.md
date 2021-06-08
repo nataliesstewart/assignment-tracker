@@ -5,10 +5,9 @@ To install, follow [these instructions](https://stackoverflow.com/questions/1668
 
 ## Current state:
 
-It has a bad darkmode
+It has a bad darkmode, configurable via chrome://extensions.
 
 ## Todo:
 
-* Allow theme to be controlled via options in chrome://extensions rather than manual CSS editing.
 * Allow option to pull colors from chrome theme.
 * Port to firefox.
