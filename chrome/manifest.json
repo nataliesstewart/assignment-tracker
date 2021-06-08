@@ -1,0 +1,29 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "Assignment Tracker++",
+  "version": "0.2",
+  "manifest_version": 2,
+  "description": "Changes new tabs page into an assignments tracker. Highlight assignments and right click to add to your assignments tracker. Fork of a project of Catherine Zeng's with minor modification.",
+  "author": "Natalie Stewart",
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "background": {
+    "scripts": ["menu.js"],
+    "persistent": true
+  },
+  "icons": {
+     "128": "icon128.png",
+     "32": "icon32.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "storage"
+  ]
+}
