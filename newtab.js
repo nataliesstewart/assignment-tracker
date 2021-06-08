@@ -7,12 +7,14 @@ document.body.onload = function() {
     var backgroundColor;
     var foregroundColor;
     chrome.storage.sync.get("backgroundColor", function(items){
-      document.getElementById("html-body").style["backgroundColor"] = items.backgroundColor;
-      document.getElementById("body").style["backgroundColor"]      = items.backgroundColor;
-      document.getElementById("textArea").style["backgroundColor"]  = items.backgroundColor;
-      document.getElementById("html-body").style["foregroundColor"] = items.foregroundColor;
-      document.getElementById("body").style["foregroundColor"]      = items.foregroundColor;
-      document.getElementById("textArea").style["foregroundColor"]  = items.foregroundColor;
+        document.getElementById("html-body").style["backgroundColor"] = items.backgroundColor;
+        document.getElementById("body").style["backgroundColor"]      = items.backgroundColor;
+        document.getElementById("textArea").style["backgroundColor"]  = items.backgroundColor;
+    });
+    chrome.storage.sync.get("foregroundColor", function(items){
+        document.getElementById("html-body").style["color"] = items.foregroundColor;
+        document.getElementById("body").style["color"]      = items.foregroundColor;
+        document.getElementById("textArea").style["color"]  = items.foregroundColor;
     });
     document.getElementById("textArea").value = text;
   });
