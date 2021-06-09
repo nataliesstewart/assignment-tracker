@@ -1,6 +1,6 @@
 # Assignment Tracker++
 
-In all honesty, this is a minor, scuffed, and unfinished modification of the chrome plugin [assignment-tracker](https://chrome.google.com/webstore/detail/assignment-tracker/majicckffndkgmkcdbgccohoclphnkhg) by [Catherine Zeng](https://github.com/yczeng), as well as a port of the modification to firefox.
+A minor modification of the chrome plugin [assignment-tracker](https://chrome.google.com/webstore/detail/assignment-tracker/majicckffndkgmkcdbgccohoclphnkhg) by [Catherine Zeng](https://github.com/yczeng), as well as a port of the modification to firefox.
 
 Tested on firefox 78.10.0esr and chromium 90.0.4430.212 (dev build) in Debian 11.
 
@@ -22,5 +22,3 @@ Foreground and background color are able to be configured in `chrome://extension
 ## Todo:
 
 * Greater customization options
-* Polish of options dialog
-* Actually get this package into [addons.mozilla.org](addons.mozilla.org) and the chrome web store.
