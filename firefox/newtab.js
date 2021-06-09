@@ -2,10 +2,14 @@ var text;
 
 document.body.onload = function() {
   browser.storage.sync.get("data", function(object) {
-    if (!browser.runtime.error) text = object.data;
+    if (object.hasOwnProperty("data")) {
+      text = object.data;
+    }
     else text = "";
+    
     var backgroundColor;
     var foregroundColor;
+    var headerText;
     browser.storage.sync.get("backgroundColor", function(items){
         document.getElementById("html-body").style["backgroundColor"] = items.backgroundColor;
         document.getElementById("body").style["backgroundColor"]      = items.backgroundColor;
@@ -16,7 +20,14 @@ document.body.onload = function() {
         document.getElementById("body").style["color"]      = items.foregroundColor;
         document.getElementById("textArea").style["color"]  = items.foregroundColor;
     });
+    browser.storage.sync.get("headerText", function(items){
+      if(items.hasOwnProperty("headerText"))
+        document.getElementById("headerTitle").innerHTML = items.headerText;
+    });
+    
     document.getElementById("textArea").value = text;
+    console.log("textarea updated:");
+    console.log(text);
   });
 
   window.setInterval(function() {

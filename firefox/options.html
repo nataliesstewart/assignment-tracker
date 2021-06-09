@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head><title>My Test Extension Options</title></head>
+<head><title>Assignment tracker++ options</title></head>
 <body>
 
-Background color:
+<table cellpadding="2">
+  <tr>
+    <td>
+      Header text:
+    </td>
+    <td>
+      <input type="text" id="headerText" value="Assignment tracker++">
+    </td>
+  </tr>
 
-<input type="color" id="backgroundColor" name="head"
-           value="#000000">
-
-<p>
-
-Foreground color:
-<input type="color" id="foregroundColor" name="head"
-           value="#ffffff">
-
+  <tr>
+    <td>
+      Background color:
+    </td>
+    <td>
+      <input type="color" id="backgroundColor" name="head" value="#000000">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Foreground color:
+    </td>
+    <td>
+      <input type="color" id="foregroundColor" name="head" value="#ffffff">
+    </td>
+  <tr>
+</table>
 <div id="status"></div>
 <button id="save">Save</button>
 
