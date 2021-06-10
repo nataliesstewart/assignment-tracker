@@ -21,4 +21,6 @@ Foreground and background color are able to be configured in `chrome://extension
 
 ## Todo:
 
-* Greater customization options
+* Update manifest to v3.0
+* Polish the web store descriptions
+* Greater customization options (text size, margins, etc).
