@@ -6,6 +6,10 @@ Tested on firefox 78.10.0esr and chromium 90.0.4430.212 (dev build) in Debian 11
 
 ## Installation
 
+You can now get v1.0.2 on the chrome web store! 
+Firefox coming soon.
+Alternatively, to install directly from this repo, do the following:
+
 ### Chrome
 * clone or download the `./chrome` directory.
 * follow [these instructions](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/) to install unpacked from `./chrome`.
