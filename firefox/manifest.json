@@ -1,8 +1,8 @@
 ﻿{
   "name": "Assignment Tracker++",
-  "version": "1.0.1",
-  "manifest_version": 2,
-  "description": "Changes new tabs page into an assignments tracker. Highlight assignments and right click to add to your assignments tracker. Fork of a project of Catherine Zeng's with minor modification.",
+  "version": "1.0.3",
+  "manifest_version": 3,
+  "description": "Changes new tabs page into an assignments tracker, editable directly & via right-clicking on assignments.",
   "author": "Natalie Stewart",
   "chrome_url_overrides" : {
     "newtab":   "newtab.html"
@@ -10,7 +10,7 @@
   "chrome_settings_overrides": {
     "homepage": "newtab.html"
   },
-  "options_ui": {
+  "options_ui":{
     "page": "options.html",
     "open_in_tab": false
   },
@@ -24,13 +24,12 @@
   },
   "permissions": [
     "contextMenus",
-    "tabs",
     "storage"
   ],
   "browser_specific_settings": {
     "gecko": {
       "id":"assignment_tracker@fakemail.com",
-      "strict_min_version":"0.1"
+      "strict_min_version":"42.0"
     }
   }
 }

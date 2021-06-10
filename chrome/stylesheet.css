@@ -8,8 +8,8 @@ html, body {
   padding-bottom: 4rem;
   padding-right: 4rem;
   padding-left: 4rem;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 textarea {
@@ -22,6 +22,6 @@ textarea {
   border-color: transparent;
   overflow: auto;
   height: 100%;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
 }

@@ -1,8 +1,8 @@
 ﻿{
   "name": "Assignment Tracker++",
-  "version": "1.0.1",
-  "manifest_version": 2,
-  "description": "Changes new tabs page into an assignments tracker. Highlight assignments and right click to add to your assignments tracker. Fork of a project of Catherine Zeng's with minor modification.",
+  "version": "1.0.3",
+  "manifest_version": 3,
+  "description": "Changes new tabs page into an assignments tracker, editable directly & via right-clicking on assignments.",
   "author": "Natalie Stewart",
   "chrome_url_overrides" : {
     "newtab": "newtab.html"
@@ -21,7 +21,6 @@
   },
   "permissions": [
     "contextMenus",
-    "tabs",
     "storage"
   ]
 }
