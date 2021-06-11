@@ -6,8 +6,7 @@ Tested on firefox 78.10.0esr and chromium 90.0.4430.212 (dev build) in Debian 11
 
 ## Installation
 
-You can now get v1.0.2 on the chrome web store! 
-Firefox coming soon.
+You can now get v1.0.4 on the [chrome web store](https://chrome.google.com/webstore/detail/assignment-tracker%20%20/cegfpcfgmbllgbbcibconieggaojdgfl?hl=en&authuser=0) and [firefox addon repository](https://addons.mozilla.org/en-US/firefox/addon/assignment-tracker/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)! 
 Alternatively, to install directly from this repo, do the following:
 
 ### Chrome
@@ -21,9 +20,9 @@ Alternatively, to install directly from this repo, do the following:
 
 ## Current state:
 
-Foreground and background color are able to be configured in `chrome://extensions` within chrome and `about:addons` within firefox.
+Foreground color, background color, and header text are able to be configured in `chrome://extensions` within chrome and `about:addons` within firefox.
 
 ## Todo:
 
-* Polish the web store descriptions
 * Greater customization options (text size, margins, etc).
+* Update manifest to v3
