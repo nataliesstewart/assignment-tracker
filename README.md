@@ -2,7 +2,7 @@
 
 A minor modification of the chrome plugin [assignment-tracker](https://chrome.google.com/webstore/detail/assignment-tracker/majicckffndkgmkcdbgccohoclphnkhg) by [Catherine Zeng](https://github.com/yczeng), as well as a port of the modification to firefox.
 
-Tested on firefox 78.10.0esr and chromium 90.0.4430.212 (dev build) in Debian 11.
+Tested on firefox 78.10.0esr and 89.0.1 as well as chromium 90.0.4430.212 (dev build) in Debian 11.
 
 ## Installation
 
